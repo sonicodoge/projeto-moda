@@ -1,0 +1,115 @@
+/* ================================
+   Fonte padrão do site
+=================================== */
+body{
+    font-family: 'Roboto', sans-serif;   /* Define a fonte principal */
+}
+
+
+/* ================================
+   Imagens principais (topo e gerais)
+=================================== */
+.topímagen,
+img{
+    width: 100%;      /* Faz a imagem ocupar toda a largura disponível */
+    display: block;   /* Remove espaçamento extra abaixo das imagens */
+}
+
+
+/* ================================
+   Cabeçalho
+=================================== */
+.menu{
+    color: white;             /* Cor do texto */
+    background-color: black;  /* Fundo preto */
+}
+
+/* Barra de navegação */
+nav {
+    display: flex;              
+    align-items: center;         /* Alinha itens verticalmente */
+    justify-content: space-between; /* Distribui: título à esquerda e menu à direita */
+    padding: 10px 20px;
+}
+
+/* Lista do menu (em linha) */
+nav ul {
+    display: flex;
+    list-style: none;  /* Remove bolinhas da lista */
+    gap: 20px;         /* Espaço entre itens */
+}
+
+/* Links do menu */
+nav ul li a {
+    color: white;
+    text-decoration: none;  /* Remove sublinhado */
+    font-size: 20px;
+}
+
+
+/* ================================
+   Seção principal (título, texto)
+=================================== */
+.principal{
+   text-align: center;  /* Centraliza todo o conteúdo dentro do elemento (texto, imagens inline etc.) */
+
+font-size: 40px; /* Define o tamanho da fonte como 40 pixels */
+
+margin-top: 40px; /* Cria um espaço de 40px acima do elemento (afasta de cima) */
+
+margin-bottom: 20px; /* Cria um espaço de 20px abaixo do elemento (afasta de baixo) */
+
+padding: 10px; /* Adiciona 10px de espaço interno, afastando o conteúdo das bordas do elemento */
+
+}
+
+
+
+.rodape{
+    background-color: black;
+}
+
+footer {
+   background-color: #333;   /* Define o fundo do elemento como cinza escuro (#333) */
+
+color: white;             /* Define a cor do texto como branco */
+
+padding: 20px 0;          /* Adiciona 20px de espaçamento interno apenas em cima e em baixo (0 nas laterais) */
+
+text-align: center;       /* Centraliza todo o conteúdo dentro do elemento */
+}
+
+
+/* ================================
+   Catálogo de imagens
+=================================== */
+
+/* Contêiner das imagens (lado a lado) */
+.imagens {
+    display: flex;
+    gap: 20px;               /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza os itens */
+    margin-top: 20px;        
+}
+
+/* Estilo das imagens individuais */
+.item img {
+    width: 200px;            /* Tamanho fixo */
+    border-radius: 5px;      /* Bordas levemente arredondadas */
+}
+
+
+/* ================================
+   Seção de detalhes / artigo
+=================================== */
+.artigo2{
+   font-size: 50px;  /* Define o tamanho da fonte como 50px (bem grande) */
+
+margin-top: 40px;   /* Cria um espaço de 40px acima do elemento, afastando-o do que está acima */
+
+margin-bottom: 20px;  /* Cria um espaço de 20px abaixo do elemento */
+
+padding: 10px;     /* Adiciona 10px de espaço interno, afastando o conteúdo das bordas */
+
+background-color: aqua; /* Define um fundo azul claro (aqua) para destacar a seção */
+}
